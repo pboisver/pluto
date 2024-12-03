@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pluto"
+version = "0.1.0"
+description = ""
+authors = ["circleci <kgrid-developers@umich.edu>"]
+readme = "README.md"
+packages = [{include = "pluto", from = "src"}]
+include = ["metadata.json"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

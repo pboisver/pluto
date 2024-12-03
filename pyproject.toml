@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pluto42"
+version = "0.1.0"
+description = ""
+authors = ["circleci <kgrid-developers@umich.edu>"]
+readme = "README.md"
+packages = [{include = "pluto", from = "src"}]
+include = ["metadata.json"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+kgrid = {path = "/Users/pboisver/dev/code-green/python-sdk/dist/kgrid-0.2.4.tar.gz"}
+pytest = "^8.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

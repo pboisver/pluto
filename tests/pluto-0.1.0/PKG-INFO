@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pluto
+Version: 0.1.0
+Summary: 
+Author: circleci
+Author-email: kgrid-developers@umich.edu
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Do you have a hangnail
+
+You have a hangnail if the product of your show size (US, 4-14) aqnd your pain level (1-10) is greater than or equal to 50.
+

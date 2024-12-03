@@ -1,0 +1,13 @@
+{
+    "@context": ["https://kgrid.org/koio/2.0/context"],
+    "@id": "pluto",
+    "version": "0.1.0",
+    "dc:title": "Hangnail Diagnosis",
+    "koio:hasKnowledge": {
+        "@type": "Knowledge",
+        "implementedBy": "src/pluto/hangnail"
+    },
+    "koio:hasService": {
+        "implementedBy": "src/pluto/hangnail"
+    }
+}
